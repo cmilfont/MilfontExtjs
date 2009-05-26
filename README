@@ -8,6 +8,6 @@ $ ant
 [GIT]
 
 Problemas com caracteres entre linux e windows
-$ git commit --no-verify .
+$ git commit --no-verify . -m 'mudança no README'
 $ git push origin master
 
