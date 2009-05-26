@@ -1,0 +1,52 @@
+8
+
+dir
+1078
+http://192.168.0.5/svn/diretorio/javascript-preparacao/lib/jsdoc-toolkit/app/handlers/XMLDOC
+http://192.168.0.5/svn/diretorio
+
+
+
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+
+svn:special svn:externals svn:needs-lock
+
+XMLDoc.js
+file
+
+
+
+
+2008-11-13T10:49:30.453125Z
+5c36a6e9aef539d9b2fe5b788618ee64
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+XMLParse.js
+file
+
+
+
+
+2008-11-13T10:49:30.500000Z
+0f165b84327fa450e6d10b9ca95e0a06
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+DomReader.js
+file
+
+
+
+
+2008-11-13T10:49:30.437500Z
+e6b50bf71f74a3b6ca1df7aab947df4b
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+

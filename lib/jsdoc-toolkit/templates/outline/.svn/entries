@@ -1,0 +1,94 @@
+8
+
+dir
+1078
+http://192.168.0.5/svn/diretorio/javascript-preparacao/lib/jsdoc-toolkit/templates/outline
+http://192.168.0.5/svn/diretorio
+
+
+
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+
+svn:special svn:externals svn:needs-lock
+
+class.tmpl
+file
+
+
+
+
+2008-11-13T11:11:55.390625Z
+fc32a1a6f6902936c5e5d8b6583f9ea3
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+symbol.tmpl
+file
+
+
+
+
+2008-11-13T11:11:55.718750Z
+3cfa412616ca4196335a5a95c818ea10
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+publish.js
+file
+
+
+
+
+2008-11-13T11:11:55.500000Z
+093cdb17df50deeb222f0b6a2af88bfb
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+allclasses.tmpl
+file
+
+
+
+
+2008-11-13T11:11:55.375000Z
+fa46999b6318fe68030f111fa571f1f6
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+index.tmpl
+file
+
+
+
+
+2008-11-13T11:11:55.390625Z
+e1d0a6a2ac00076c0727478b68dd8cf9
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+allfiles.tmpl
+file
+
+
+
+
+2008-11-13T11:11:55.390625Z
+cf1e4bcfd6aca8ba462f0f06e01bbb88
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+static
+dir
+
+jsdoc-changes
+dir
+

@@ -1,0 +1,31 @@
+8
+
+dir
+1078
+http://192.168.0.5/svn/diretorio/javascript-preparacao/lib/jsdoc-toolkit/app/lib
+http://192.168.0.5/svn/diretorio
+
+
+
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+
+svn:special svn:externals svn:needs-lock
+
+JSDOC
+dir
+
+JSDOC.js
+file
+
+
+
+
+2008-11-13T10:49:34.109375Z
+ca66b8040f78b3b6787b75b65e4b211f
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+

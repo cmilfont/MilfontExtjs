@@ -1,0 +1,52 @@
+8
+
+dir
+1078
+http://192.168.0.5/svn/diretorio/javascript-preparacao/lib/jsdoc-toolkit/templates/jsdoc/static
+http://192.168.0.5/svn/diretorio
+
+
+
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+
+svn:special svn:externals svn:needs-lock
+
+index.html
+file
+
+
+
+
+2008-11-13T10:49:34.843750Z
+a3569fc55532e3885856de79b7829adc
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+header.html
+file
+
+
+
+
+2008-11-13T10:49:34.843750Z
+732c165194d7ceaaf61e0a0be01201e0
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+default.css
+file
+
+
+
+
+2008-11-13T10:49:34.828125Z
+7c98273c4b2917516b4faecf790d2b3b
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+

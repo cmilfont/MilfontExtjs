@@ -1,0 +1,29 @@
+8
+
+dir
+1078
+http://192.168.0.5/svn/diretorio/javascript-preparacao/lib/jsdoc-toolkit/java/classes
+http://192.168.0.5/svn/diretorio
+
+
+
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+
+
+svn:special svn:externals svn:needs-lock
+
+js.jar
+file
+
+
+
+
+2008-11-13T10:49:34.765625Z
+9060807a2a0114b115e17d94cc76569e
+2008-11-13T23:23:24.687500Z
+1078
+marcelo
+has-props
+
