@@ -11,3 +11,7 @@ Problemas com caracteres entre linux e windows
 $ git commit --no-verify . -m 'mudança no README'
 $ git push origin master
 
+Talvez seja necessário
+git config core.autocrlf true
+git config core.safecrlf true
+
