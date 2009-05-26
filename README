@@ -5,3 +5,9 @@ https://bugs.launchpad.net/ubuntu/+source/openjdk-6/+bug/255149
 $ sudo update-java-alternatives --set java-6-sun
 $ ant
 
+[GIT]
+
+Problemas com caracteres entre linux e windows
+$ git commit --no-verify .
+$ git push origin master
+
