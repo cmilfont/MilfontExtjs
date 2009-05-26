@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jsmin" default="main" basedir=".">
+
+	<property name="js" value="js"/>
+	<property name="build" value="build"/>
+	<property name="lib" value="lib"/>
+	<property name="output" value="output"/>
+
+	<property name="yui-compressor.jar" location="${lib}/yuicompressor-2.4.2.jar" />
+	<property name="yui-compressor-ant-task.jar" location="${lib}/yui-compressor-ant-task-0.3.jar" />
+	<property name="jsdoctoolkit-1.0.jar" location="${lib}/jsdoctoolkit-1.0.jar" />
+	<property name="jsrun.jar" location="${lib}/jsdoc-toolkit/jsrun.jar" />
+
+	<path id="task.classpath">
+		<pathelement location="${yui-compressor.jar}" />
+		<pathelement location="${yui-compressor-ant-task.jar}" />
+	</path>
+
+	<taskdef name="yui-compressor" classname="net.noha.tools.ant.yuicompressor.tasks.YuiCompressorTask">
+		<classpath refid="task.classpath"/>
+	</taskdef>
+
+	<taskdef name="jsdoctoolkit" classname="uk.co.darrenhurley.ant.tasks.JsDocToolkit"
+	classpath="${jsdoctoolkit-1.0.jar};${jsrun.jar}"/>
+
+	<target name="clean">
+		<delete dir="build"/>
+		<delete dir="output"/>
+		<mkdir dir="build"/>
+		<mkdir dir="output"/>
+	</target>
+
+	<echo message="Building ${output}" />
+
+	<target name="main" depends="clean">
+		<!--
+		<jsdoctoolkit jsdochome="${lib}/jsdoc-toolkit/" template="outline" outputdir="${build}" inputdir="${js}" />
+		-->
+		<concat destfile="${output}/ext.ux.dwrproxy.js" force="no">
+			<fileset file="${js}/ext.ux.dwrproxy.js" />
+		</concat>
+		 <yui-compressor warn="false"  munge="true"
+				preserveallsemicolons="false" fromdir="${output}" todir="${build}">
+		</yui-compressor>
+		<delete dir="output"/>
+	</target>
+</project>
+
