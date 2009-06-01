@@ -36,8 +36,9 @@
 		<!--
 		<jsdoctoolkit jsdochome="${lib}/jsdoc-toolkit/" template="outline" outputdir="${build}" inputdir="${js}" />
 		-->
-		<concat destfile="${output}/ext.ux.dwrproxy.js" force="no">
+		<concat destfile="${output}/ext.ux.dwr.js" force="no">
 			<fileset file="${js}/ext.ux.dwrproxy.js" />
+			<fileset file="${js}/ext.ux.dwrform.js" />
 		</concat>
 		 <yui-compressor warn="false"  munge="true"
 				preserveallsemicolons="false" fromdir="${output}" todir="${build}">
