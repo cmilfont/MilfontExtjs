@@ -1,4 +1,3 @@
-
 [UBUNTU]
 Problema com openjdk12, tem que utilizar o sun-jdk
 https://bugs.launchpad.net/ubuntu/+source/openjdk-6/+bug/255149
