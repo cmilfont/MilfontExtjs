@@ -1,4 +1,3 @@
-
 [UBUNTU]
 Problema com openjdk12, tem que utilizar o sun-jdk
 https://bugs.launchpad.net/ubuntu/+source/openjdk-6/+bug/255149
@@ -15,4 +14,3 @@ $ git push origin master
 Talvez seja necessário
 git config core.autocrlf true
 git config core.safecrlf true
-
