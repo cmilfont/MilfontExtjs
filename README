@@ -15,4 +15,4 @@ Talvez seja necessário
 git config core.autocrlf true
 git config core.safecrlf true
 
-fixed?
+fixed? or not?
